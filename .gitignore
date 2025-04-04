@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Poetry
+poetry.lock
+# Nếu bạn không muốn bỏ qua poetry.lock, hãy xóa dòng trên
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# MyPy, Coverage, etc.
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Test reports
+junit-*.xml
+
+# Logs
+*.log
